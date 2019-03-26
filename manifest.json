@@ -1,0 +1,23 @@
+{
+  "name": "Confirm mailto links",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Will prompt when clicking on mailto links, before opening default client",
+  "homepage_url": "https://github.com/iamandrewluca/mailto-confirm",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "run_at": "document_idle",
+      "js": [
+        "src/inject/inject.js"
+      ]
+    }
+  ]
+}
