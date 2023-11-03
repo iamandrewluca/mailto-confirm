@@ -4,3 +4,7 @@
 > "Are you sure you want to open your mail program or did you click the link by a mistake?"
 > 
 > — https://twitter.com/wa7son/status/1110540935161618434
+
+**Example**
+
+<a href="mailto:contact@example.com">contact@example.com</a>
