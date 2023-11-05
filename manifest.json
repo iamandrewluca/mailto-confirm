@@ -1,6 +1,6 @@
 {
   "name": "Confirm mailto links",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "manifest_version": 3,
   "description": "Will prompt when clicking on mailto links, before opening default client",
   "homepage_url": "https://github.com/iamandrewluca/mailto-confirm",
